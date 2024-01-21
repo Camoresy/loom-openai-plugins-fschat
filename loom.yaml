@@ -14,7 +14,7 @@ subscribe_server:
   port: 8002
 
 openai_plugins_folder:
-  - "/media/gpt4-pdf-chatbot-langchain/loom-openai-plugins-fschat"
+  - "/media/gpt4-pdf-chatbot-langchain/"
 openai_plugins_load_folder:
   - "/media/gpt4-pdf-chatbot-langchain/loom-openai-plugins-fschat"
 
@@ -23,8 +23,8 @@ plugins:
   - openai:
       name: "openai"
 
-  - fastchat:
-      name: "fastchat"
+  - loom-openai-plugins-fschat:
+      name: "loom-openai-plugins-fschat"
       logdir: "logs"
       # LLM 运行设备。设为"auto"会自动检测，也可手动设定为"cuda","mps","cpu"其中之一。
       llm_device: "auto"

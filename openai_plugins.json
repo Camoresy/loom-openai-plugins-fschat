@@ -1,5 +1,5 @@
 {
-  "plugins_name": "fastchat",
+  "plugins_name": "loom-openai-plugins-fschat",
   "endpoint_host": "http://localhost:20000/v1",
   "install_file": "install.py",
   "application_file": "app.py",

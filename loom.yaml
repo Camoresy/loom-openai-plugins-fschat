@@ -11,7 +11,7 @@ publish_server:
 
 subscribe_server:
   host: "127.0.0.1"
-  port: 8002
+  port: 8004
 
 openai_plugins_folder:
   - "/media/gpt4-pdf-chatbot-langchain/"
@@ -69,6 +69,7 @@ plugins:
             # 以下为vllm_worker配置参数,注意使用vllm必须有gpu，仅在Linux测试通过
 
             # tokenizer = model_path # 如果tokenizer与model_path不一致在此处添加
+            'kv_cache_dtype': 'auto'
             'max_model_len': 1024
             'max_parallel_loading_workers': 1
             'max_context_len_to_capture': 1024

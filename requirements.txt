@@ -1,7 +1,7 @@
 torch>=2.1.2
 torchvision>=0.16.2
 torchaudio>=2.1.2
-fschat>=0.2.33
+fschat==0.2.33
 xformers>=0.0.23.post1
 sentence_transformers>=2.2.2
 transformers>=4.36.2

@@ -15,13 +15,11 @@ subscribe_server:
 
 openai_plugins_folder:
   - "/media/gpt4-pdf-chatbot-langchain/"
-openai_plugins_load_folder:
-  - "/media/gpt4-pdf-chatbot-langchain/loom-openai-plugins-fschat"
+openai_plugins:
+  - "loom-openai-plugins-fschat"
 
 
 plugins:
-  - openai:
-      name: "openai"
 
   - loom-openai-plugins-fschat:
       name: "loom-openai-plugins-fschat"

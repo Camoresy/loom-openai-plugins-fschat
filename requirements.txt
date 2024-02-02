@@ -14,4 +14,5 @@ einops>=0.7.0
 transformers_stream_generator>=0.0.4
 httpx>=0.25.2
 accelerate>=0.24.1
-vllm>=0.2.7; sys_platform == "linux"
+vllm==0.2.7; sys_platform == "linux"
+pydantic==1.10.13
